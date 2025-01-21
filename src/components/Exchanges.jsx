@@ -1,6 +1,5 @@
-import { Button, HStack } from "@chakra-ui/react";
+import {  HStack } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 import axios from "axios";
 import Loader from "./Loader";
 import ErrorComponent from "./ErrorComponent";
@@ -12,7 +11,6 @@ import {
   Text,
   VStack,
 } from "@chakra-ui/react";
-import { Card, CardHeader, CardBody, CardFooter,Stack,Divider,ButtonGroup } from '@chakra-ui/react'
 
 const Header = () => {
   const [exchanges, setExchanges] = useState([]); // Initialize exchanges as an empty array
